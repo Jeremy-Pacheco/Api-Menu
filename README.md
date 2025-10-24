@@ -1,6 +1,6 @@
 # React + Vite
 
-# React Seafood/Beef/Vegetarian Meals App
+# React Meals App
 
 This project is a web application built using **React** and **Vite**, with styles handled by **Tailwind CSS**. It fetches and displays recipes from [TheMealDB API](https://www.themealdb.com/) focused on seafood, beef, and vegetarian dishes. The project includes food search by name, sorting by price (ascending/descending). A loading effect is shown with [`react-loading-indicators`](https://www.npmjs.com/package/react-loading-indicators).
 
