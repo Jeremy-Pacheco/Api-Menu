@@ -1,16 +1,44 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Seafood/Beef/Vegetarian Meals App
 
-Currently, two official plugins are available:
+This project is a web application built using **React** and **Vite**, with styles handled by **Tailwind CSS**. It fetches and displays recipes from [TheMealDB API](https://www.themealdb.com/) focused on seafood, beef, and vegetarian dishes. The project includes food search by name, sorting by price (ascending/descending). A loading effect is shown with [`react-loading-indicators`](https://www.npmjs.com/package/react-loading-indicators).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Built with React + Vite for fast development and hot reloading
+- Styled using Tailwind CSS utility classes
+- Data fetched from TheMealDB API (`seafood`, `beef`, and `vegetarian` categories)
+- Search meals by name
+- Sort products by price ascending/descending
+- Loading indicator using `react-loading-indicators`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
 
-## Expanding the ESLint configuration
+```bash
+git clone https://github.com/Jeremy-Pacheco/Api-Menu.git
+cd Api-Menu
+npm install
+npm run dev
+```
+## Usage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Meals are loaded from TheMealDB API in real time.
+- Use the search field to find meals by name.
+- Sort buttons allow you to order meals by price.
+- When meals are loading, an animated indicator from `react-loading-indicators` appears centered on the page.
+
+## Dependencies
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [react-loading-indicators](https://www.npmjs.com/package/react-loading-indicators)
+
+## API Reference
+
+- Data Source: [TheMealDB](https://www.themealdb.com/)
+
+## Author
+
+[Jéremy Paul Pacheco Oña](https://github.com/Jeremy-Pacheco)
