@@ -12,7 +12,19 @@ function MealDetail() {
       .then((data) => setMeal(data.meals[0]));
   }, [id]);
 
-  if (!meal) return <p>Loading...</p>;
+  if (!meal)
+    return (
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh", // para toda la pantalla
+        }}
+      >
+        <Atom color="#32cd32" size="medium" text="loading..." textColor="" />
+      </div>
+    );
 
   return (
     <div className="max-w-4xl mx-auto mt-8 p-6 bg-white rounded-xl shadow-lg flex flex-col md:flex-row gap-8">

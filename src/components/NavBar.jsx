@@ -4,12 +4,10 @@ function NavBar() {
   return (
     <nav className="bg-blue-950 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
-        {/* Logo */}
         <h1 className="text-white text-2xl font-bold tracking-wider">
           Restaurante Delicias
         </h1>
 
-        {/* Enlaces de navegación */}
         <ul className="flex space-x-8">
           <li>
             <NavLink

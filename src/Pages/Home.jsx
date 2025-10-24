@@ -7,7 +7,6 @@ function Home(){
         <div>
             <h1>Hola</h1>
         </div>
-        {/* <Footer /> */}
         </>
     )
 }

@@ -59,7 +59,6 @@ function MenuList({ category = "Seafood" }) {
 
   return (
     <div className="w-full max-w-7xl mx-auto">
-      {/* SEARCH & SORT CONTROLS */}
       <div className="flex flex-col sm:flex-row gap-4 mb-6">
         <input
           type="text"
@@ -77,7 +76,6 @@ function MenuList({ category = "Seafood" }) {
           <option value="desc">Price: high to low</option>
         </select>
       </div>
-      {/* ITEM GRID */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 auto-rows-fr">
         {filteredAndSortedItems.map((item) => (
           <Link key={item.id} to={`/meals/${item.id}`}>
